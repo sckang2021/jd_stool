@@ -109,6 +109,7 @@
 38 0,8 5-12 8 node /scripts/jd_opencard5.js >> /scripts/logs/jd_opencard5.log 2>&1
 30 0,8 * 8 * node /scripts/jd_opencard6.js >> /scripts/logs/jd_opencard6.log 2>&1
 36 0,10,21 4-15 8 * node /scripts/jd_doge.js >> /scripts/logs/jd_doge.log 2>&1
+20 5,10 * * * node /scripts/jd_fcdyj.js >> /scripts/logs/jd_fcdyj.log 2>&1
 0 5 * * * node /scripts/jd_summer_mom_opencard.js >> /scripts/logs/jd_summer_mom_opencard.log 2>&1
 0 5 * * * node /scripts/jd_opencard_eat_open_opencard.js >> /scripts/logs/jd_opencard_eat_open_opencard.log 2>&1
 11 12,20 * * * node /scripts/jd_summer_movement_bet.js >> /scripts/logs/jd_summer_movement_bet.log 2>&1
