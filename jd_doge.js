@@ -12,11 +12,11 @@
 ============Quantumultx===============
 [task_local]
 #8.4-8.15 七夕情报局🐶
-36 0,10,21 4-15 8 * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_doge.js, tag=8.4-8.15 七夕情报局🐶, enabled=true
+16 0,10,21 4-15 8 * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_doge.js, tag=8.4-8.15 七夕情报局🐶, enabled=true
 
 ================Loon==============
 [Script]
-cron "36 0,10,21 4-15 8 *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_doge.js,tag=8.4-8.15 七夕情报局🐶
+cron "16 0,10,21 4-15 8 *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_doge.js,tag=8.4-8.15 七夕情报局🐶
 
 ===============Surge=================
 8.4-8.15 七夕情报局🐶 = type=cron,cronexp="36 0,10,21 4-15 8 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_doge.js
