@@ -82,7 +82,6 @@
 46 0,1 * * * node /scripts/jd_lsj.js >> /scripts/logs/jd_lsj.log 2>&1
 13 3 * * * node /scripts/jd_drawEntrance.js >> /scripts/logs/jd_drawEntrance.log 2>&1
 13 0 * * * node /scripts/jd_superBrand.js >> /scripts/logs/jd_superBrand.log 2>&1
-13 * * * * node /scripts/jd_joypark.js >> /scripts/logs/jd_joypark.log 2>&1
 8 0 * * * node /scripts/jd_SendBean.js >> /scripts/logs/jd_SendBean.log 2>&1
 8 4,6 * * * node /scripts/jd_wish.js >> /scripts/logs/jd_wish.log 2>&1
 28 1,3 * * * node /scripts/jd_wxFans.js >> /scripts/logs/jd_wxFans.log 2>&1
@@ -104,14 +103,8 @@
 2 2 * * * node /scripts/jd_dpqd.js >> /scripts/logs/jd_dpqd.log 2>&1
 2 12 * * * node /scripts/jd_tyt.js >> /scripts/logs/jd_tyt.log 2>&1
 55 6 * * * node /scripts/jd_unsubscriLive.js >> /scripts/logs/jd_unsubscriLive.log 2>&1
-23 9,13 24-27 7 * node /scripts/jd_opencard4.js >> /scripts/logs/jd_opencard4.log 2>&1
-0 5 * * * node /scripts/jd_opencard_Daddy.js >> /scripts/logs/jd_opencard_Daddy.log 2>&1
-38 0,8 5-12 8 node /scripts/jd_opencard5.js >> /scripts/logs/jd_opencard5.log 2>&1
-30 0,8 * 8 * node /scripts/jd_opencard6.js >> /scripts/logs/jd_opencard6.log 2>&1
 36 0,10,21 4-15 8 * node /scripts/jd_doge.js >> /scripts/logs/jd_doge.log 2>&1
 20 5,10 * * * node /scripts/jd_fcdyj.js >> /scripts/logs/jd_fcdyj.log 2>&1
-0 5 * * * node /scripts/jd_summer_mom_opencard.js >> /scripts/logs/jd_summer_mom_opencard.log 2>&1
-0 5 * * * node /scripts/jd_opencard_eat_open_opencard.js >> /scripts/logs/jd_opencard_eat_open_opencard.log 2>&1
 11 12,20 * * * node /scripts/jd_summer_movement_bet.js >> /scripts/logs/jd_summer_movement_bet.log 2>&1
 23 1,6,12,21 * * * node /scripts/jd_jxlhb.js >> /scripts/logs/jd_jxlhb.log 2>&1
 1 6,7 * * * python3 /jd/scripts/jd_zqfl.py >> /jd/log/jd_zqfl.log 2>&1
